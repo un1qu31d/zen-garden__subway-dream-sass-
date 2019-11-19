@@ -1,0 +1,29 @@
+@mixin title($position, $image) {
+  background: transparent url(#{$url-prefix}back_flowers.gif) no-repeat $position;
+  h3 {
+    background: transparent url(#{$url-prefix}#{$image}) no-repeat;
+  }
+}
+.supporting {
+  margin-left: 75px;
+  margin-right: 275px;
+  h3 {
+    position: relative;
+    left: -20px;
+    display: block;
+    height: 58px;
+    text-indent: -1500px; 
+  }
+  .explanation {
+    @include title(100% 100%, 'title_so_what.gif');
+  }
+  .participation {
+    @include title(100% 0%, 'title_participation.gif');
+  }
+  .benefits {
+    @include title(0% 0%, 'title_benfits.gif');
+  }
+  .requirements {
+    @include title(100% 0%, 'title_requirements.gif');
+  }
+}

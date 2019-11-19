@@ -1,0 +1,43 @@
+
+  .intro {
+    width: 100%;
+    background: transparent url(#{$url-prefix}girl.gif) no-repeat;
+    header {
+      width: 720px;
+      height: 55px;
+      h1, h2 {
+        display: none;
+      }
+    }
+    .summary {
+      margin-top: 237px;
+      margin-left: 270px;
+      width: 425px;
+      height: 166px;
+      background: transparent url(#{$url-prefix}quicksum.gif) no-repeat;
+      p {
+        &:first-child {
+          display: none;
+        }
+        &:last-child{
+          text-indent: 4px;
+          padding-top: 140px;
+          text-transform: uppercase;
+        }
+      }
+    }	
+    .preamble {
+      margin-left: 75px;
+      margin-right: 280px;
+      background: transparent url(#{$url-prefix}back_flowers.gif) no-repeat 0 0;
+      h3 {
+        position: relative;
+        left: -20px;
+        display: block;
+        height: 57px;
+        background: transparent url(#{$url-prefix}title_the_road.gif) no-repeat;
+        text-indent: -1500px;
+      }
+    }
+  }
+    

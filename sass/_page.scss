@@ -1,0 +1,8 @@
+.page-wrapper {
+  position: relative;
+  background: $background-color url(http://www.csszengarden.com/152/background.gif) no-repeat top center;
+  border-left: $border-width solid $border-color;
+  border-right: $border-width solid $border-color;
+  margin: 0 auto;
+  width: $page-width;
+}

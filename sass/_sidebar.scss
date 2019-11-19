@@ -1,0 +1,83 @@
+.sidebar {
+  position: absolute;
+  top: 515px;
+  left: 480px;
+  width: 225px;
+  background: transparent url(#{$url-prefix}back_list.gif) repeat-y;
+  .wrapper {
+    h3 {
+      display: block;
+      height: 35px;
+      margin: 0px 30px;
+      text-indent: -1500px;
+    }
+    ul {
+      margin: 0 10px 0 35px;
+      padding-left: 0;
+      padding-bottom: 10px;
+      list-style-type: none;
+      font-family: 'Lucida Grande','Lucida Sans Unicode',arial,verdana,sans-serif;
+      font-size: 10px;
+    }
+    .design-selection {
+      h3 {
+        background: transparent url(#{$url-prefix}title_select.gif) no-repeat;
+      }
+      ul {
+        li {
+          padding-left: 20px;
+        }
+        a {
+          margin-left: -25px;
+          padding-left: 25px;
+          background: transparent url(#{$url-prefix}bullet_flower.gif) no-repeat 0 50%;
+          line-height: 25px;
+          text-decoration: none;
+          display: block;
+          clear: both;
+          text-transform: uppercase;
+          &:hover { 
+            color: $hover-color;
+            background-image: url(#{$url-prefix}bullet_flower_on.gif);
+          }
+          &.designer-name {
+            margin-left: 0;
+            padding-left: 0px;
+            padding-right: 12px;
+            background-image: none;	
+            display: inline;
+            clear: none;
+            text-transform: none;
+            color: $text-color;
+            &:hover { 
+              color: $hover-color;
+              background: transparent url(#{$url-prefix}bullet_stah.gif) no-repeat 100% 50%;
+            }
+          }
+        }
+      }
+    }
+    .design-archives, .zen-resources  {
+      ul li a {
+        display:block;	
+        padding-left: 25px;
+        background: transparent url(#{$url-prefix}bullet_oval.gif) no-repeat 0 50%;
+        line-height: 25px;
+        text-decoration: none;
+      }
+      ul li a:hover {
+        background-image: url(#{$url-prefix}bullet_oval_on.gif);
+      }
+    }
+    .design-archives {
+      h3 {
+        background: transparent url(#{$url-prefix}title_archives.gif) no-repeat;
+      }
+    }
+    .zen-resources {
+      h3 {
+        background: transparent url(#{$url-prefix}title_resources.gif) no-repeat;
+      }
+    }
+  }
+}

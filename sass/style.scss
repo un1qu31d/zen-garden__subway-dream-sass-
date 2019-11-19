@@ -1,0 +1,16 @@
+$background-color: #2E0154;
+$text-color: #B198C5;
+$link-color: #BA76FF;
+$abbr-color: #CCAFE3;
+$hover-color: #F286FF;
+$border-color: #CD9FF3;
+$border-width: 5px;
+$page-width: 720px;
+$url-prefix: 'http://www.csszengarden.com/152/';
+
+@import '_general';
+@import '_page';
+@import '_intro';
+@import '_main';
+@import '_sidebar';
+@import '_footer';
